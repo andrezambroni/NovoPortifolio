@@ -22,6 +22,7 @@ section.tecnologias .titulo {
   width: 100%;
   padding: 0 30px;
 }
+
 section.tecnologias .titulo h2 {
   font-family: var(--bold);
   font-size: 2.5rem;
@@ -32,6 +33,7 @@ section.tecnologias .titulo h2 {
   width: 100%;
   max-width: 600px;
 }
+
 section.tecnologias .titulo p {
   font-family: var(--regular);
   font-size: 1rem;
@@ -40,11 +42,13 @@ section.tecnologias .titulo p {
   width: 100%;
   max-width: 900px;
 }
+
 section.tecnologias .titulo .linha {
   width: 2px;
   height: 100px;
   background-color: var(--cor-branco);
 }
+
 /* Itens */
 section.tecnologias .itens {
   display: flex;
@@ -54,6 +58,7 @@ section.tecnologias .itens {
   flex-wrap: wrap;
   padding: 0 100px;
 }
+
 section.tecnologias .itens .item {
   display: flex;
   flex-direction: column;
@@ -64,40 +69,44 @@ section.tecnologias .itens .item {
   flex: 1;
 }
 
-.front{
-  display:column;
 
-  background-color: var(--cor-secundaria-4);
+
+/* FrontEnd */
+
+.front {
+  display: column;
+
+  background-color: transparent;
+  border: 2px solid var(--cor-primaria);
   padding: 60px 20px;
   border-radius: 15px;
 
   align-items: center;
 }
 
-.front .titulofront h2{
+.front .titulo_front h2 {
   font-family: var(--bold);
   font-size: 3rem;
   line-height: 1;
   color: var(--cor-primaria);
 }
 
-.front .tec_front1{
+.front .tec_front1 {
   display: flex;
 
   justify-content: center;
   flex-direction: row;
-  
+
   gap: 50px;
 
   margin-top: 20px;
   margin-bottom: 20px;
 
-  
+
 }
 
-.front .tec_front1 h3{
-  padding: auto;
-  margin: 0 auto;
+.front .tec_front1 h3 {
+
 
   font-family: var(--bold);
   font-size: 1.5rem;
@@ -106,21 +115,176 @@ section.tecnologias .itens .item {
 
 }
 
-.front .tec_front2{
+.front .tec_front2 {
   display: flex;
 
   justify-content: center;
   flex-direction: row;
-  
+
   gap: 50px;
 
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
-.front .tec_front2 h3{
-  padding: auto;
-  margin: 0 auto;
+.front .tec_front2 h3 {
+
+
+  font-family: var(--bold);
+  font-size: 1.5rem;
+  line-height: 1;
+  color: var(--cor-primaria);
+
+}
+
+/* BackEnd */
+
+.back {
+  display: column;
+
+  background-color: transparent;
+  border: 2px solid var(--cor-primaria);
+  padding: 60px 20px;
+  border-radius: 15px;
+
+  align-items: center;
+}
+
+.back .titulo_back h2 {
+  font-family: var(--bold);
+  font-size: 3rem;
+  line-height: 1;
+  color: var(--cor-primaria);
+}
+
+.back .tec_back1 {
+  display: flex;
+
+  justify-content: center;
+  flex-direction: row;
+
+  gap: 50px;
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+
+}
+
+.back .tec_back1 h3 {
+
+
+  font-family: var(--bold);
+  font-size: 1.5rem;
+  line-height: 1;
+  color: var(--cor-primaria);
+
+}
+
+.back .tec_back2 {
+  display: flex;
+
+  justify-content: center;
+  flex-direction: row;
+
+  gap: 50px;
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.back .tec_back2 h3 {
+
+
+  font-family: var(--bold);
+  font-size: 1.5rem;
+  line-height: 1;
+  color: var(--cor-primaria);
+
+}
+
+
+/* bando de dados */
+
+.bd {
+  display: column;
+
+  background-color: transparent;
+  border: 2px solid var(--cor-primaria);
+  padding: 60px 20px;
+  border-radius: 15px;
+
+  align-items: center;
+}
+
+.bd .titulo_bd h2 {
+  font-family: var(--bold);
+  font-size: 3rem;
+  line-height: 1;
+  color: var(--cor-primaria);
+}
+
+.bd .tec_bd {
+  display: flex;
+
+  justify-content: center;
+  flex-direction: row;
+
+  gap: 50px;
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+
+}
+
+.bd .tec_bd h3 {
+
+
+  font-family: var(--bold);
+  font-size: 1.5rem;
+  line-height: 1;
+  color: var(--cor-primaria);
+
+}
+
+
+/* ferramentas */
+
+.ferramentas {
+  display: column;
+
+  background-color: transparent;
+  border: 2px solid var(--cor-primaria);
+  padding: 60px 20px;
+  border-radius: 15px;
+
+  align-items: center;
+}
+
+.ferramentas .titulo_ferramentas h2 {
+  font-family: var(--bold);
+  font-size: 3rem;
+  line-height: 1;
+  color: var(--cor-primaria);
+}
+
+.ferramentas .tec_ferramentas {
+  display: flex;
+
+  justify-content: center;
+  flex-direction: row;
+
+  gap: 50px;
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+
+}
+
+.ferramentas .tec_ferramentas h3 {
+
 
   font-family: var(--bold);
   font-size: 1.5rem;
@@ -133,7 +297,7 @@ section.tecnologias .itens .item {
 
 
 
-section.tecnologias .itens .item .conteudo {
+section.tecnologias .itens .item .front .back .bd .ferramentas {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -142,21 +306,25 @@ section.tecnologias .itens .item .conteudo {
   padding: 60px 20px;
   border-radius: 15px;
 }
-section.tecnologias .itens .item .conteudo.diferente {
+
+section.tecnologias .itens .item .front .back .bd .ferramentas {
   background-color: transparent;
   border: 2px solid var(--cor-primaria);
 }
-section.tecnologias .itens .item .conteudo img {
+
+section.tecnologias .itens .item .front .back .bd .ferramentas img {
   width: 100%;
   max-width: 150px;
 }
-section.tecnologias .itens .item .conteudo h2 {
+
+section.tecnologias .itens .item .front .back .bd .ferramentas h2 {
   font-family: var(--bold);
   font-size: 3rem;
   line-height: 1;
   color: var(--cor-primaria);
 }
-section.tecnologias .itens .item .conteudo h3 {
+
+section.tecnologias .itens .item .front .back .bd .ferramentas h3 {
   font-family: var(--bold);
   font-size: 1.5rem;
   line-height: 1;
@@ -165,44 +333,58 @@ section.tecnologias .itens .item .conteudo h3 {
   width: 100%;
   max-width: 250px;
 }
-section.tecnologias .itens .item .conteudo p {
+
+section.tecnologias .itens .item .front .back .bd .ferramentas p {
   font-family: var(--regular);
   font-size: 1rem;
   line-height: 1.5;
   color: var(--cor-branco);
 }
+
 section.tecnologias .itens .item .linha {
   width: 2px;
   height: 150px;
   background-color: var(--cor-primaria);
+
 }
+
+
+
+
 /* Responsivo */
 @media screen and (max-width: 1000px) {
   section.tecnologias {
     padding: 0 0 80px 0;
   }
+
   section.tecnologias .titulo h2 {
     font-size: 2.5rem;
     max-width: 400px;
   }
+
   section.tecnologias .titulo {
     text-align: left;
     align-items: flex-start;
     padding: 50px 30px;
   }
+
   section.tecnologias .titulo .linha {
     display: none;
   }
+
   section.tecnologias .itens {
     flex-direction: column;
     padding: 0 30px;
   }
+
   section.tecnologias .itens .item {
     padding: 0;
   }
+
   section.tecnologias .itens .item .conteudo {
     padding: 40px 30px;
   }
+
   section.tecnologias .itens .item .linha {
     width: 2px;
     height: 50px;

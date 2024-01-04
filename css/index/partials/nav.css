@@ -38,7 +38,7 @@ nav .opcoes {
 nav .opcoes a {
   font-family: var(--bold);
   font-size: 1rem;
-  color: var(--cor-preto);
+  color: var(--cor-primaria);
   margin: 0 0 0 30px;
   transition: all 0.3s;
 }
