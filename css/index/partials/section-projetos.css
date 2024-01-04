@@ -3,7 +3,7 @@ section.projetos {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--cor-branco);
+  background-color: var(--cor-secundaria-1);
 }
 /* Titulo */
 section.projetos .titulo {
@@ -28,7 +28,7 @@ section.projetos .titulo p {
   font-family: var(--medium);
   font-size: 1.2rem;
   line-height: 1.5;
-  color: var(--cor-preto);
+  color: var(--cor-primaria);
   margin: 20px 0 0 0;
   width: 100%;
   max-width: 500px;
@@ -77,7 +77,7 @@ section.projetos .descricao-projeto .project .texto p {
   font-family: var(--medium);
   font-size: 1.2rem;
   line-height: 1.5;
-  color: var(--cor-preto);
+  color: var(--cor-primaria);
   padding: 0 20px 0 0;
 }
 section.projetos .descricao-projeto .project > a {

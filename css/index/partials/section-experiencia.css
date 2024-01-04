@@ -1,98 +1,95 @@
+.experiencia__wrapper {
+  display: flex;
+}
 
-  
-  .experiencia__wrapper {
-    display: flex;
+.experiencia__lugares {
+  width: 200px;
+  cursor: pointer;
+}
+
+.experiencia__lugares ul {
+  list-style: none;
+  font-size: 1.1rem;
+  padding: 0;
+}
+
+.experiencia__lugares ul li.active {
+  background-color: #151515;
+  border-left: 2px solid #00d2df;
+  font-weight: 600;
+}
+
+.experiencia__lugares li {
+  padding: 10px;
+  text-align: center;
+  border-left: 2px solid #272727;
+  transition: background-color 0.5s ease;
+}
+
+.experiencia__lugares ul li:hover {
+  background-color: #272727;
+}
+
+.experiencia__descricao {
+  width: 60%;
+  margin-left: 5rem;
+  position: relative;
+  line-height: 1.5rem;
+
+}
+
+.experiencia__descricao section {
+  display: none;
+}
+
+.experiencia__descricao section.active {
+  display: block;
+}
+
+.experiencia__descricao section.active.show-right {
+  animation: 0.5s forwards show-right;
+}
+
+.experiencia__descricao h2 {
+  font-size: 1.4rem;
+  display: inline-block;
+}
+
+.experiencia__descricao span {
+  font-size: 0.95rem;
+  position: absolute;
+  right: 0;
+  top: 5px;
+  font-weight: bold;
+}
+
+.experiencia__descricao-local {
+  margin: 2rem 0;
+  font-size: 0.85rem;
+  color: #00d2df !important;
+  font-weight: bold;
+}
+
+@keyframes show-right {
+  from {
+    opacity: 1;
+    transform: translate3d(-30px, 0, 0);
   }
-  
-  .experiencia__lugares {
-    width: 200px;
-    cursor: pointer;
+
+  to {
+    opacity: 0;
+    transform: translate3d(0, 0, 0);
   }
-  
-  .experiencia__lugares ul {
-    list-style: none;
-    font-size: 1.1rem;
-    padding: 0;
+}
+
+@keyframes show-down {
+  from {
+    opacity: 1;
+    transform: translate3d(0, -30px, 0);
   }
-  
-  .experiencia__lugares ul li.active {
-    background-color: #151515;
-    border-left: 2px solid #00d2df;
-    font-weight: 600;
+
+  to {
+    opacity: 0;
+    transform: translate3d(0, 0, 0);
   }
-  
-  .experiencia__lugares li {
-    padding: 10px;
-    text-align: center;
-    border-left: 2px solid #272727;
-    transition: background-color 0.5s ease;
-  }
-  
-  .experiencia__lugares ul li:hover {
-    background-color: #272727;
-  }
-  
-  .experiencia__descricao {
-    width: 60%;
-    margin-left: 5rem;
-    position: relative;
-    line-height: 1.5rem;
-    
-  }
-  
-  .experiencia__descricao section {
-    display: none;
-  }
-  
-  .experiencia__descricao section.active {
-    display: block;
-  }
-  
-  .experiencia__descricao section.active.show-right {
-    animation: 0.5s forwards show-right;
-  }
-  
-  .experiencia__descricao h2 {
-    font-size: 1.4rem;
-    display: inline-block;
-  }
-  
-  .experiencia__descricao span {
-    font-size: 0.95rem;
-    position: absolute;
-    right: 0;
-    top: 5px;
-    font-weight: bold;
-  }
-  
-  .experiencia__descricao-local {
-    margin: 2rem 0;
-    font-size: 0.85rem;
-    color: #00d2df !important;
-    font-weight: bold;
-  }
-  
-  @keyframes show-right {
-    from {
-      opacity: 1;
-      transform: translate3d(-30px, 0, 0);
-    }
-  
-    to {
-      opacity: 0;
-      transform: translate3d(0, 0, 0);
-    }
-  }
-  
-  @keyframes show-down {
-    from {
-      opacity: 1;
-      transform: translate3d(0, -30px, 0);
-    }
-  
-    to {
-      opacity: 0;
-      transform: translate3d(0, 0, 0);
-    }
-  }
-  
+}

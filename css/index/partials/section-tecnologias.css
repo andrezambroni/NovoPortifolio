@@ -348,6 +348,12 @@ section.tecnologias .itens .item .linha {
 
 }
 
+.linha2{
+  width: 2px;
+  height: 440px;
+  background-color: var(--cor-primaria);
+}
+
 
 
 
