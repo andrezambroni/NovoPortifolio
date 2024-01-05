@@ -15,7 +15,7 @@
 
 .experiencia__lugares ul li.active {
   background-color: #151515;
-  border-left: 2px solid #00d2df;
+  border-left: 2px solid var(--cor-secundaria);
   font-weight: 600;
 }
 
@@ -66,7 +66,7 @@
 .experiencia__descricao-local {
   margin: 2rem 0;
   font-size: 0.85rem;
-  color: #00d2df !important;
+  color: var(--cor-secundaria) !important;
   font-weight: bold;
 }
 

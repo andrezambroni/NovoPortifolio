@@ -62,7 +62,7 @@
 .principal span {
   font-size: 3rem;
   text-transform: uppercase;
-  color: #00d2df;
+  color: var(--cor-secundaria-1);
   font-weight: 600;
   letter-spacing: 3px;
 }
