@@ -137,6 +137,9 @@ section.tecnologias .itens .item {
 
 }
 
+.tec_front1 .html .js svg {
+  margin-top: 7px;
+}
 /* BackEnd */
 
 .back {
@@ -204,7 +207,7 @@ section.tecnologias .itens .item {
 }
 
 
-/* bando de dados */
+/* banco de dados */
 
 .bd {
   display: column;
@@ -294,6 +297,8 @@ section.tecnologias .itens .item {
   font-size: 1.5rem;
   line-height: 1;
   color: var(--cor-primaria);
+
+  margin-left: 15px;
 
 }
 
