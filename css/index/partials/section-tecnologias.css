@@ -215,6 +215,8 @@ section.tecnologias .itens .item {
   border-radius: 15px;
 
   align-items: center;
+
+  height: 400px;
 }
 
 .bd .titulo_bd h2 {
@@ -260,6 +262,8 @@ section.tecnologias .itens .item {
   border-radius: 15px;
 
   align-items: center;
+
+  height: 400px;
 }
 
 .ferramentas .titulo_ferramentas h2 {
@@ -350,7 +354,7 @@ section.tecnologias .itens .item .linha {
 
 .linha2{
   width: 2px;
-  height: 440px;
+  height: 450px;
   background-color: var(--cor-primaria);
 }
 
